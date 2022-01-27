@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+
+.parent_app{
+    width: 100%;
+   
+    
+}
+
+
+.TodoWrapper{
+    width: 300px;
+    margin: 35px auto;
+}
+.TodoWrapper .active_task{
+    color: white;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 255, 0.589);
+    padding: 10px 25px;
+    font-size: 19px;
+    box-sizing: border-box;
+}
+span{
+    color: orangered;
+}
+input{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.add__todo button{
+    background-color: rgb(8, 231, 83);
+    
+    color: white;
+    cursor: pointer;
+
+}
+.add__todo button:hover{
+    background-color: black;
+
+}

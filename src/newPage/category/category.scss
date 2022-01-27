@@ -1,0 +1,21 @@
+.parent__bar{
+    margin-left: 45px;
+    .category__list{
+       width: 120px;
+       padding: 5px;
+       
+        option{
+            
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            &:hover{
+                color: rgba(46, 206, 126, 0.896);
+                transition: 0.7s;
+            }
+        }
+
+       
+    }
+    
+}

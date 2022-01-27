@@ -1,0 +1,206 @@
+
+
+.wrapp__prod{
+    display: flex;
+    justify-content: space-between;
+    .bar{
+        display: flex;
+        align-items: baseline;
+    }
+    .product_count{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 75px;
+        color: black;
+        font-size: 20px;
+        b{
+            color: red;
+        }
+        .cart{
+            margin: 0 17px;
+            position: relative;
+            .cart__btn{ 
+                border: none;
+                background-color: yellowgreen;
+                color: white;
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                margin-top: -10px;
+                border-radius: 10px;
+                
+                i{
+                    font-size: 20px;
+                    color: black;
+                }
+                &:hover{
+                    background-color: black;
+                    transition: 0.6s;
+                    i{
+                        color:yellowgreen;
+                        transition: 0.6s;
+                    }}
+                
+             
+            }
+
+            .cartItems{
+                position: absolute;
+                top: -45%;
+                right: -15%;
+                background-color: white;
+                color: red;
+                font-weight: bold;
+                padding: 3px 6px;
+                border-radius: 50%;
+            }
+
+
+
+
+        }
+
+    }
+}
+
+
+// Shop
+
+
+.add__product{
+    margin:0 0 0 25px;
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: black;
+        transition: 0.6s;
+    }
+}
+
+.Shop{
+    padding: 25px 0 ;
+    position: fixed;
+    top: 0%;
+    width: 25%;
+    height: 100%;
+    background: rgb(154,205,50);
+    background: radial-gradient(circle, rgba(154,205,50,1) 14%, rgba(62,199,49,1) 54%, rgba(191,199,49,1));
+    .add_submit{
+        display: block;
+        margin: 20px auto;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: white;
+        border: 1.5px solid #999;
+        border-radius: 5px;
+        &:hover{
+         
+            border: 1.5px solid black;
+            transition: 0.2s;
+        }
+
+    }
+.close__admin__menu{
+    
+  .close__add{
+    margin-right: 25px;
+    float: right;
+    border: none;
+    background-color: transparent;
+    color: red;
+    font-size: 35px;
+    cursor: pointer;
+    &:hover{
+        color: white;
+        transition: 0.7s;
+    }
+  }
+}
+.all__inputs{
+    margin-top: 35px;
+    clear: both;
+    .text__input{
+        width: 80%;
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        &::placeholder{
+            letter-spacing: 5px;
+            
+        }
+    }
+    
+    .custom-file-input::-webkit-file-upload-button {
+        visibility: hidden;
+        
+      }
+      .custom-file-input::before {
+        content: 'Select File';
+        width: 120px;
+        display: inline-block;
+        background-color: white;
+        border: 1px solid #999;
+        border-radius: 3px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10pt;
+       
+      }
+      .custom-file-input:hover::before {
+        border-color: black;
+        transition: 0.2s;
+      }
+      .custom-file-input:active::before {
+        background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+      }
+}
+    
+}
+.global__example{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:1000px){
+    .Shop{
+        width: 40%;
+    }
+}
+@media screen and (max-width:650px){
+    .Shop{
+        width: 50%;
+    }
+}
+@media screen and (max-width:450px){
+    .Shop{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+
+
+@media screen and (max-width:580px){
+    .wrapp__prod{
+        flex-direction: column;
+        align-items: center;
+        
+        .product_count{
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

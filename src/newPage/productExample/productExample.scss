@@ -1,0 +1,56 @@
+.example__wrapper{
+    width: 320px;
+    margin: 25px;
+    background-color: white;
+    padding: 5px 5px 30px 5px;
+    box-shadow: 4px 5px 25px 8px rgba(0,0,0,0.25);
+    
+    
+    .img__example{
+        width: 90%;
+        height: 60%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .first__input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    h5{
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 15px 0 5px 0;
+    }
+    p{  
+        font-size: 20px;
+        font-weight: 600;
+        sub{
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+    
+    
+    }
+    .btn__shop{
+        margin-right: 20px;
+        float: right;
+        clear: both;
+        border: none;
+        background-color: lime;
+        color: black;
+        padding: 7px 12px;
+        cursor: pointer;
+        border-radius: 7px;
+        &:hover{
+            background-color: black;
+            color: yellowgreen;
+            transition: 0.6s;
+        }
+        i{
+            font-size: 25px;
+        }
+        
+    }
+    }

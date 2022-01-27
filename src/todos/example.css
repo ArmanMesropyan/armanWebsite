@@ -1,0 +1,44 @@
+.example__wrapper{
+   
+}
+
+
+
+.example{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: rgb(0, 189, 94);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 10px;
+ 
+}
+.change__back{
+   background-color: blue;
+ 
+
+}
+.item-text {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.example button{
+    color: red;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+    font-size: 20px;
+}
+.example button:hover{
+    color: black;
+    transition: 1s;
+}
+.line{
+    text-decoration: line-through;
+    cursor: pointer;
+    color:black
+}
