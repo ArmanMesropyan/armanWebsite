@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/armanWebsite/npm/static/css/main.b3ebc41b.css",
+    "main.js": "/armanWebsite/npm/static/js/main.686f6445.js",
+    "static/media/TWS-VG10-.webp": "/armanWebsite/npm/static/media/TWS-VG10-.9641d6960de285e3ead0.webp",
+    "static/media/TWS-PX5.webp": "/armanWebsite/npm/static/media/TWS-PX5.7bfe766ee76b375946fc.webp",
+    "static/media/iphone.jpg": "/armanWebsite/npm/static/media/iphone.c604dcc3234460b06655.jpg",
+    "static/media/GEJIAN.webp": "/armanWebsite/npm/static/media/GEJIAN.267ca0ace4526700bf3b.webp",
+    "static/media/MAFAM-MX7.webp": "/armanWebsite/npm/static/media/MAFAM-MX7.57df642e9e237727390a.webp",
+    "static/media/LIGE.webp": "/armanWebsite/npm/static/media/LIGE.c51864976935c9f8a6fc.webp",
+    "static/media/huawei.jpg": "/armanWebsite/npm/static/media/huawei.8ad92b72b20b9303b5a2.jpg",
+    "static/media/TWS-Jbl-T280-.webp": "/armanWebsite/npm/static/media/TWS-Jbl-T280-.3d0ec72e854a7ca6dfcb.webp",
+    "static/media/samsung.webp": "/armanWebsite/npm/static/media/samsung.d3c08d478b4e387faf1a.webp",
+    "index.html": "/armanWebsite/npm/index.html",
+    "main.b3ebc41b.css.map": "/armanWebsite/npm/static/css/main.b3ebc41b.css.map",
+    "main.686f6445.js.map": "/armanWebsite/npm/static/js/main.686f6445.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3ebc41b.css",
+    "static/js/main.686f6445.js"
+  ]
+}
